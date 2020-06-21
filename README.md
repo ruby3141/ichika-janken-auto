@@ -62,3 +62,13 @@ E_AMUSEMENT_PW
 저장소의 `settings` -> `actions` 메뉴에서 `Disable Actions for this repository` 항목을 체크하면 더 이상 스크립트가 자동으로 실행되지 않습니다.
 
 ![`Disable Actions for this repository`를 체크해서 스크립트를 끌 수 있습니다](./doc/image/6.png)
+
+
+## credits
+
+- [@Lapis](https://twitter.com/Lapis_BMS)
+    - python 버전 작성
+- [@ㄹ](https://twitter.com/disjukr)
+    - typescript 버전으로 포팅
+    - github actions 적용
+    - 비전문가용 사용법 문서작성
