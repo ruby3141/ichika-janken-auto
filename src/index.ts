@@ -24,7 +24,10 @@ async function doIchikaJanken() {
     }
 }
 
-doIchikaJanken();
+doIchikaJanken().catch(err => {
+    console.error(err);
+    process.exit(1);
+});
 
 function pick<T>(array: T[]): T {
     return array[Math.floor(Math.random() * array.length)];
